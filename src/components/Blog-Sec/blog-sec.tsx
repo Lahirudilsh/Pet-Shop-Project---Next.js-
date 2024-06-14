@@ -5,7 +5,7 @@ import blogCardImg2 from "@/images/15.png";
 import blogCardImg3 from "@/images/16.png";
 import { Button, Card, Col, Container, Row , Image } from "react-bootstrap";
 
-export default function Blogsec() {
+export default function BlogSec() {
   return (
     <div className="blog-section">
       <Container>

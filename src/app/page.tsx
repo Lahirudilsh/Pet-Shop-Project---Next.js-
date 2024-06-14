@@ -10,7 +10,8 @@ import FeaturedProductsComponent from "@/components/Featured-Products/FeaturedPr
 import InstagramFeed from "@/components/InstagramFeed/InstagramFeed";
 import Aboutsec from "@/components/About-Sec/about-sec";
 import Blogsec from "@/components/Blog-Sec/blog-sec";
-import Newsletter from "@/components/NewsLetter/newsLetter";
+import Newsletter from "@/components/newsletter/newsLetter";
+
 
 
 const HomePage = () => {

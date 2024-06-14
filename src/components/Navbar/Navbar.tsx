@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import styles from "./Navbar.module.scss";
 import img from "./../../images/Orange___Green_Illustration_Pet_Shop_Logo__2_-removebg-preview@2x.png";
@@ -9,7 +8,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 const NavbarComponent: React.FC = () => {
   return (
     <Navbar expand="lg" className={`${styles.navbar}`} variant="dark">
-      <Container> 
+      <Container> =
         <Navbar.Brand href="#">
           <img src={img.src} height="68px" alt="Logo" />
         </Navbar.Brand>
@@ -19,7 +18,7 @@ const NavbarComponent: React.FC = () => {
             <Nav.Link href="#" className={`${styles.navLink} px-5`}>Home</Nav.Link>
             <Nav.Link href="#" className={`${styles.navLink} px-5`}>About Us</Nav.Link>
             <Nav.Link href="#" className={`${styles.navLink} px-5`}>Shop</Nav.Link>
-            <Nav.Link href="#" className={`${styles.navLink} px-5`}>Blogs</Nav.Link>
+            <Nav.Link href="/blog-page" className={`${styles.navLink} px-5`}>Blogs</Nav.Link>
             <Nav.Link href="#" className={`${styles.navLink} px-5`}>Contact Us</Nav.Link>
           </Nav>
           <Nav>
